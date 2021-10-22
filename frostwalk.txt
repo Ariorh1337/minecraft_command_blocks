@@ -1,8 +1,11 @@
-Line below is minified, copy and paste into commant block
+/* This command will work only if player has a frost_walk boots equiped
+Line below is minified, copy and paste into commant block */
+
 /execute at @a[nbt={RootVehicle:{Entity:{Tame:1b}},Inventory:[{Slot:100b,tag:{Enchantments:[{id:"minecraft:frost_walker"}]}}]}] run fill ~-2 ~-1 ~-2 ~2 ~-1 ~2 minecraft:frosted_ice replace water[level=0]
 
+/* Here you can find settings of command block: https://imgur.com/gallery/iuSNzTQ */
 
-/* Here is more readable code starts */
+/* Here is more readable code */
 execute at @a[nbt={
   RootVehicle:{
     Entity:{
